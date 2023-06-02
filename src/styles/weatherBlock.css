@@ -1,0 +1,40 @@
+.weatherBlock {
+  display: block;
+  width: 12vw;
+  height: 20vw;
+  padding: 1.5%;
+  border-radius: 25px;
+  max-width: 13%;
+  max-height: 30%;
+}
+.cloudy {
+  background: url(../../public/sky/clouded-sky.jpg) no-repeat 100% 100%;
+}
+.sunny {
+  background: url(../../public/sky/sunny-sky.jpg) no-repeat 100% 100%;
+}
+.snowy {
+  background: url(../../public/sky/snowy-sky.jpg) no-repeat 100% 100%;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(235, 235, 235, 0.404);
+  backdrop-filter: blur(10);
+  border-radius: 25px;
+  height: 95%;
+  padding: 7px 10px;
+}
+
+h2 {
+  text-align: center;
+}
+.windDirection > img {
+  width: 1.5rem;
+}
+
+span {
+  text-align: left;
+  margin: 3px 0 3px 0;
+}
